@@ -1,0 +1,21 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules
+
+# IDEs and editors
+.idea
+.vscode
+
+# Environment files
+.env
+.env.*
+
+# Build output
+dist
+build
+
+# NPM
+npm-debug.log
