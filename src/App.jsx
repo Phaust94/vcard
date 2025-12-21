@@ -94,14 +94,19 @@ function Hero() {
             I'm a Data Engineer specializing in ELT pipelines, infrastructure automation, and data analysis. I help businesses unlock the power of their data.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+          <div className="inline-flex rounded-md shadow">
             <a
-              href="https://cal.com/your-username"
+              href="https://calcom.phaust.pp.ua/anton.b"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-md bg-teal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500"
+              className="inline-flex items-center justify-center rounded-md border border-transparent bg-teal-500 px-5 py-3 text-base font-medium text-white hover:bg-teal-600"
             >
+              <CalendarIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
               Book a Consultation
             </a>
+          </div>
+        </div>
             <a href="#services" className="text-sm font-semibold leading-6 text-white">
               Learn more <span aria-hidden="true">→</span>
             </a>
@@ -207,7 +212,7 @@ function CTA() {
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">
             <a
-              href="https://cal.com/your-username"
+              href="https://calcom.phaust.pp.ua/anton.b"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-md border border-transparent bg-teal-500 px-5 py-3 text-base font-medium text-white hover:bg-teal-600"
