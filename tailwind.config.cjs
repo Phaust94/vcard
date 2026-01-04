@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors');
-
 module.exports = {
   content: [
     "./index.html",
@@ -9,7 +7,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        teal: colors.teal,
+        charcoal: '#0B0C10',
+        'electric-cyan': '#45A29E',
+        'data-purple': '#6A0DAD', // Example purple, will refine
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
       },
     },
   },
