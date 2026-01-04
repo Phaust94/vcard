@@ -3,14 +3,15 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[80vh] items-center">
-      <div className="p-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 py-12 min-h-[70vh] items-center">
+      <div className="p-4 md:p-8">
+        <h2 className="text-xl md:text-2xl text-electric-cyan font-mono mb-2">Anton Bohdanov</h2>
         <h1 className="text-5xl md:text-6xl font-bold font-mono text-white mb-4">
           Building Robust Data Infrastructure
         </h1>
         <Typewriter />
       </div>
-      <div className="p-8">
+      <div className="p-4 md:p-8">
         <DataPipelineVisualization />
       </div>
     </div>
