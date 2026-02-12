@@ -11,7 +11,7 @@ export default function CTA() {
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">
             <a
-              href="https://calcom.phaust.pp.ua/anton.b"
+              href={import.meta.env.VITE_CALCOM_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-md border border-transparent bg-electric-cyan px-5 py-3 text-base font-medium text-charcoal hover:bg-electric-cyan/80 font-sans"
