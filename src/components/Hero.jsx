@@ -31,7 +31,7 @@ const Typewriter = () => {
       } else {
         clearInterval(typing);
       }
-    }, 50);
+    }, 10);
     return () => clearInterval(typing);
   }, []);
 
