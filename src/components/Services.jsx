@@ -23,7 +23,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="py-12">
+    <div id="services" className="py-12 scroll-mt-8">
       <h2 className="text-3xl font-bold text-center text-white mb-8 font-mono">
         What I Do
       </h2>

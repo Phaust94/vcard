@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 py-12 min-h-[70vh] items-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 py-12 min-h-[70vh] items-center relative">
       <div className="p-4 md:p-8">
         <h2 className="text-xl md:text-2xl text-electric-cyan font-mono mb-2">Anton Bohdanov</h2>
         <h1 className="text-5xl md:text-6xl font-bold font-mono text-white mb-4">
@@ -14,6 +14,27 @@ const Hero = () => {
       <div className="p-4 md:p-8">
         <DataPipelineVisualization />
       </div>
+      <a
+        href="#services"
+        aria-label="Scroll to services"
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center text-gray-400 hover:text-electric-cyan transition-colors"
+      >
+        <span className="text-xs font-mono mb-1">scroll</span>
+        <motion.svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          animate={{ y: [0, 8, 0] }}
+          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <polyline points="6 9 12 15 18 9" />
+        </motion.svg>
+      </a>
     </div>
   );
 };

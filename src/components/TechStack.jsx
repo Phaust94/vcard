@@ -41,7 +41,7 @@ const TechStack = () => {
         Tech Stack
       </h2>
       <div className="relative w-full overflow-hidden">
-        <div className="flex animate-marquee">
+        <div className="flex w-max animate-marquee">
           {technologies.concat(technologies).map((tech, index) => (
             <div
               key={index}
