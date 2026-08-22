@@ -1,5 +1,20 @@
 import { DiPython } from "react-icons/di";
-import { SiDbt, SiApacheairflow, SiSnowflake, SiKubernetes } from "react-icons/si";
+import {
+  SiDbt,
+  SiApacheairflow,
+  SiSnowflake,
+  SiKubernetes,
+  SiMysql,
+  SiClickhouse,
+  SiPostgresql,
+  SiApachekafka,
+  SiDocker,
+  SiGitlab,
+  SiAmazons3,
+  SiGrafana,
+  SiJupyter,
+  SiHelm,
+} from "react-icons/si";
 
 const technologies = [
   { icon: <DiPython className="text-4xl" />, name: "Python" },
@@ -7,6 +22,16 @@ const technologies = [
   { icon: <SiApacheairflow className="text-4xl" />, name: "Airflow" },
   { icon: <SiSnowflake className="text-4xl" />, name: "Snowflake" },
   { icon: <SiKubernetes className="text-4xl" />, name: "Kubernetes" },
+  { icon: <SiMysql className="text-4xl" />, name: "MySQL" },
+  { icon: <SiClickhouse className="text-4xl" />, name: "ClickHouse" },
+  { icon: <SiPostgresql className="text-4xl" />, name: "PostgreSQL" },
+  { icon: <SiApachekafka className="text-4xl" />, name: "Kafka" },
+  { icon: <SiDocker className="text-4xl" />, name: "Docker" },
+  { icon: <SiGitlab className="text-4xl" />, name: "GitLab CI" },
+  { icon: <SiAmazons3 className="text-4xl" />, name: "AWS S3" },
+  { icon: <SiGrafana className="text-4xl" />, name: "Grafana" },
+  { icon: <SiJupyter className="text-4xl" />, name: "JupyterLab" },
+  { icon: <SiHelm className="text-4xl" />, name: "Helm" },
 ];
 
 const TechStack = () => {
