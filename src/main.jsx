@@ -7,7 +7,7 @@ import posthog from 'posthog-js'
 posthog.init(import.meta.env.VITE_POSTHOG_KEY, {
   api_host: import.meta.env.VITE_POSTHOG_HOST,
   defaults: '2025-05-24',
-  capture_pageview: false,
+  capture_pageview: true,
   capture_pageleave: true,
 })
 
